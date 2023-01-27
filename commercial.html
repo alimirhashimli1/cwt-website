@@ -14,17 +14,6 @@
   <script src="js/jquery.js"></script>
   <script src="js/jquery-migrate-1.2.1.js"></script>
 
-  <!--[if lt IE 9]> 
-  <html class="lt-ie9">
-  <div style=' clear: both; text-align:center; position: relative;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
-      <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
-    </a>
-  </div>
-  <script src="js/html5shiv.js"></script>
-  <![endif]-->
-
   <script src='js/device.min.js'></script>
 </head>
 
@@ -33,86 +22,61 @@
     <!--========================================================
                             HEADER
   =========================================================-->
-    <header>
-      <section class="top_header wow fadeIn ">
-        <div class="container">
-          <p>
-            <i class="material-design-map103"></i>
-            Christiani Wassertechnik GmbH (CWT), Selerweg 41, 12169, Berlin, Germany
-          </p>
-          <p>
-            <i class="mod1 material-design-phone370"></i>
-            <a href="callto:+493023607780"> +49 (0)30 – 23 60 77 8-0 </a>
-          </p>
-          <p>
-            <i class="mod1 material-design-black402"></i>
-            <a href="mailto:info@cwt-international.com"> info@cwt-international.com </a>
-          </p>
+  <header>
+    <section class="top_header wow fadeIn ">
+      <div class="container">
+        <p>
+          <i class="material-design-map103"></i>
+          Christiani Wassertechnik GmbH (CWT), Selerweg 41, 12169, Berlin, Germany
+        </p>
+        <p>
+          <i class="mod1 material-design-phone370"></i>
+          <a href="callto:+493023607780"> +49 (0)30 – 23 60 77 8-0 </a>
+        </p>
+        <p>
+          <i class="mod1 material-design-black402"></i>
+          <a href="mailto:info@cwt-international.com">  info@cwt-international.com  </a>
+        </p>
+      </div>
+    </section>
+
+    <div id="stuck_container" class="stuck_container">
+      <div class="container">
+        <div class="brand">
+          <a href="/web"> <img class="vulcan-logo" src="images/vulcan-logo.png" alt="vulcan-logo"></a>
         </div>
-      </section>
-
-      <div id="stuck_container" class="stuck_container">
-        <div class="container">
-          <div class="brand">
-            <!-- <h1 class="brand_name"> -->
-            <!-- <a href="./"><span>Repair</span>Theme</a> -->
-            <img class="vulcan-logo" src="images/vulcan-logo.png" alt="vulcan-logo">
-            <!-- </h1> -->
-          </div>
-          <nav class="nav">
-            <h1>THE ECO-FRIENDLY SOLUTION FOR HARD WATER</h1>
-            <ul class="sf-menu" data-type="navbar">
-              <li class="">
-                <a href="./">Home</a>
-              </li>
-              <li>
-                <a href="./">Models</a>
-              </li>
-              <li>
-                <a href="technology.html">Technology</a>
-                <!-- <ul>
-                <li>
-                  <a href="#">Tablet Repair</a>
-                </li>
-                <li>
-                  <a href="#">Computer Repair</a>
-                  <ul>
-                    <li>
-                      <a href="#">Lorem</a>
-                    </li>
-                    <li>
-                      <a href="#">Dolor</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Laptop Repair</a>
-                </li>
-                <li>
-                  <a href="#">Mobile Repair</a>
-                </li>
-              </ul> -->
-              </li>
-              <li>
-                <a href="index-3.html">References</a>
-              </li>
-              <li>
-                <a href="index-4.html">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="origin">
-            <img class="made-in-germany" src="images/made-in-germany.png" alt="made-in-germany">
-          </div>
+        <nav class="nav">
+          <h1>THE ECO-FRIENDLY SOLUTION FOR HARD WATER</h1>
+          <ul class="sf-menu" data-type="navbar">
+            <li>
+              <a href="/web">Home</a>
+            </li>
+            <li>
+              <a href="models">Models</a>
+            </li>
+            <li  >
+              <a href="technology">Technology</a>
+            </li>
+            <li>
+              <a href="https://www.cwt-vulcan.com/reference/">References</a>
+            </li>
+            <li>
+              <a href="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="origin">
+          <img class="made-in-germany" src="images/made-in-germany.png" alt="made-in-germany">
         </div>
-
-
       </div>
 
 
+    </div>
 
 
-    </header>
+
+
+  </header>
     <!--========================================================
                             CONTENT
   =========================================================-->
@@ -125,16 +89,15 @@
       <section class="well technology-container application-line commercial-line">
         <div class="container">
           <div class="content row marTop4">
-            <div class="  col-md-9  col-sm-12 col-xs-12  wow fadeIn">
+            <div class="  col-md-9  col-sm-12 col-xs-12  wow fadeIn application-line-intro">
               <h3>Vulcan Commercial Line</h3>
-              <div class="application-line-intro">
+              <div class="">
                 <div class="">
                   <h5> <img class=" " src="images/commercial-line-intro.jpg" alt="woman personnel">The eco-friendly anti-scale system for commercial applications
                   </h5>
                   <p>              
                     Commercial applications goes through a large quantity of water on a daily basis. Restaurants need water for food preparation, such as drinking water and in the kitchen. Furthermore, facility services, swimming pools, heating or cooling tower operations are just a few examples how the commercial area utilize water.
-                  </p>
-                        <p>
+                    <br>
                     The Commercial Line units treat pipe diameters up to 6″ and have been designed to perfectly meet the requirements of small and large commercial facilities. These programmable units allow for individual adjustment according to the materials and diameters of the pipes.
                   </p>
                 </div>
@@ -144,81 +107,85 @@
 
             <div class="commercial-application-areas col-md-3  col-sm-12 col-xs-12   wow fadeIn image-container">
               <img src="images/Vulcan_S250_S100_S25_5000_s.jpg" alt="Vulcan 5000">
-              <div class=" bg4">
-                <h5>Residential Application Areas</h5>
+              <div class="application-areas bg4">
+                <h5>Commercial Areas</h5>
                 <table>
-                    <tbody>
-                      <tr>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Agriculture_EN.pdf">Agriculture</a>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Agriculture_EN.pdf">Agriculture</a>
+                      </td>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Farming_EN.pdf">Farming</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Poultry_EN.pdf">Poultry</a>
+                      </td>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Condominiums_EN.pdf">Condominiums</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Medical_EN.pdf">Medical</a>
+                      </td>
+                        <td>
+                          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Pool_EN.pdf">Pool & Spas</a>
                         </td>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Farming_EN.pdf">Farming</a>
+                    </tr>
+                    <tr>
+                        <td>
+                          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Cooling_Tower_EN.pdf">Cooling Towers</a>
                         </td>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Poultry_EN.pdf">Poultry</a>
+                      <td>
+                          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Solar_EN.pdf">Solar</a>
                         </td>
-                      </tr>
-                      <tr>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Medical_EN.pdf">Medical</a>
+                    </tr>
+                    <tr>
+                        <td>
+                          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Water_Works_EN.pdf">Water Works</a>
                         </td>
-                        <td><a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Condominiums_EN.pdf">
-                            Condominiums</a></td>
-                        <td><a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Pool_EN.pdf">
-                            Pools & Spas</a></td>
-                      </tr>
-                      <tr>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Cooling_Tower_EN.pdf">Cooling Towers</a></td>
-                        <td><a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Solar_EN.pdf">
-                            Solar</a></td>
-                        <td><a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Water_Works_EN.pdf">
-                            Waterworks</a></td>
-                      </tr>
-                      <tr>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Golf_Course_EN.pdf">Golf
-                            Courses</a></td>
-                        <td><a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Ice_Rinks_EN.pdf">
-                            Ice Rinks</a></td>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Ice_Rinks_EN.pdf">Stadiums</a>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Golf_Course_EN.pdf">Golf Courses</a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Ice_Rinks_EN.pdf">Ice Rinks</a>
+                      </td>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Ice_Rinks_EN.pdf">Stadiums</a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Supermarket_EN.pdf">Supermarkts</a>
                         </td>
-                      </tr>
-                      <tr>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Supermarket_EN.pdf">Supermarkets</a>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_School_EN.pdf">Schools</a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Maritime_EN.pdf">Maritime</a>
                         </td>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_School_EN.pdf">Schools</a></td>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Maritime_EN.pdf">Maritime</a>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Snow_Production_EN.pdf">Snow Production</a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Yachts_EN.pdf">Yachts</a>
                         </td>
-                      </tr>
-                      <tr>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Snow_Production_EN.pdf">Snow Production</a>
-                        </td>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Yachts_EN.pdf">Yachts</a>
-                        </td>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Brochure_Restaurants_EN.pdf">Restaurants</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Naval_Ships_EN.pdf">Naval
-                            Ships</a></td>
-                        <td><a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Wells_EN.pdf">Well
-                            Water</a></td>
-                        <td><a
-                            href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Water_Works_EN.pdf">Water
-                            Works</a></td>
-                      </tr>
-                    </tbody>
-                  </table>
+                      <td>
+                        <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Brochure_Restaurants_EN.pdf">Restaurants</a>
+                      </td>
+                    </tr>
+
+                  </tbody>
+                </table>
 
               </div>
             </div>
@@ -234,27 +201,28 @@
          <!--========================================================
                             RESIDENTIAL LINE
   =========================================================-->
-  <section class="well ">
+  <section class="well bg4">
     <div class="container">
       <div class="content row marTop4">
-        <div class="row  col-md-9  col-sm-12 col-xs-12  wow fadeIn areas">
+        <div class="row  col-md-9  col-sm-12 col-xs-12  wow fadeIn areas application-line-outro">
           <div>
-          <a href=""><img src="images/commercial-pool.jpg" alt="pool"> <strong>Hospitality – hotels, restaurants, cafés</strong></a>
+          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Brochure_Hospitality_EN.pdf"><img src="images/commercial-pool.jpg" alt="pool"> <strong>Hospitality – hotels, restaurants, cafés</strong></a>
           <p>The hospitality industry processes large amounts of water on a daily basis. Laundry service, cleaning and food preparation are just a few ways hotels and restaurants use water. Vulcan not only protects the piping system but maximizes the use of water and reduces cleaning expenses – all with an eco-friendly technology.</p>
         </div>
         <div>
-          <a href=""><img src="images/commercial-condominiums.jpg" alt="condominiums"> <strong>Condominiums & Large Buildings</strong></a>
+          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Condominiums_EN.pdf"><img src="images/commercial-condominiums.jpg" alt="condominiums"> <strong>Condominiums & Large Buildings</strong></a>
           <p>Vulcan protects the piping system in the whole building. It cleans old pipes and protects water heater, heating systems, washing machines; and bathroom fittings are protected: filters, shower nozzles and shower heads stay clean longer. You save on maintenance costs and repairs.</p>
         </div>
         <div>
-          <a href=""><img src="images/commercial-sprinkler.jpg" alt="sprinkler"> <strong>Agriculture: Plants, Livestock, Machinery</strong></a>
+          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Agriculture_EN.pdf"><img src="images/commercial-sprinkler.jpg" alt="sprinkler"> <strong>Agriculture: Plants, Livestock, Machinery</strong></a>
           <p>Vulcan keeps pipes free of scale deposits, protects fine nozzles used for irrigation, and keeps the natural mineral-rich composition of the water. It reduces or eliminates bacterial growth. Vulcan also has a positive effect on water for lifestock and plants as they will absorb and process the water better.</p>
         </div>
         <div>
-          <a href=""><img src="images/commercial-hospital.jpg" alt="hospital"> <strong>Medical – Hospitals, Nursing Homes, Residences</strong></a>
+          <a href="https://www.cwt-vulcan.com/wp-content/uploads/Vulcan_Appl_Flyer_Medical_EN.pdf"><img src="images/commercial-hospital.jpg" alt="hospital"> <strong>Medical – Hospitals, Nursing Homes, Residences</strong></a>
           <p>Hospitals, nursing homes or health care facilities all use a large quantity of water on a daily basis. Traditional salt-based water softeners produce sodium-rich water which is not recommended for elderly guests and patients. Vulcan protects the piping system and appliances while keeping the original, healthy composition of the water.</p>
         </div>
-        <p>Vulcan treats many more applications. Please <strong><a href="https://www.cwt-vulcan.com/contact/">contact us</a></strong> for more information on your application.</p>
+        <hr>
+        <p>Vulcan treats many more applications. Please <strong><a href="contact">contact us</a></strong> for more information on your application.</p>
           
           
 
@@ -268,7 +236,7 @@
               <li>No salt or chemicals</li>
               <li>Magnetism-free</li>
               <li>For pipe diameters up to 40″</li>
-              <li>Works on every pipe material></li>
+              <li>Works on every pipe material</li>
               <li>International 25-year warranty</li>
               <li>Quality – Made in Germany</li>
             </ul>
@@ -289,8 +257,7 @@
               </div>
             </div>
           </div>
-          <p>You will find more information, photos, videos and downloads on the product page directly. Please choose a model below to see more information.</p>
-          <img src="images/references-xl-768x122.jpg" alt="references from companies">
+          <img src="images/references-xl-768x122.png" alt="references from companies">
         </div>
 
       </div>
@@ -305,72 +272,72 @@
     <!--========================================================
                             FOOTER
   =========================================================-->
-    <footer>
-      <section class="footer-section1">
+  <footer>
+    <section class="footer-section1">
         <div class="container">
-          <div class="row d-flex ">
-            <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12   wow fadeIn">
-              <div class="footer-logo-container">
-                <img class="logo" src="images/vulcan-logo.png" alt="logo">
+            <div class="row d-flex ">
+                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12   wow fadeIn">
+                    <div class="footer-logo-container">
+                        <img class="logo" src="images/vulcan-logo.png" alt="logo">
 
-              </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  wow fadeIn address-content">
+
+                    <p class="icon1">
+                        <i class="material-design-web37"></i>
+                        Christiani Wassertechnik GmbH (CWT)
+
+                    <p class="icon1">
+                        <i class="material-design-map103"></i>
+                        <a>Selerweg 41, 12169, Berlin, Germany
+                    </p></a>
+                    </p>
+
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 wow fadeIn contact-content">
+
+
+                    <p class="icon1">
+                        <i class="mod1 material-design-phone370"></i>
+                        <a href="callto:+493023607780"> +49 (0)30 – 23 60 77 8-0 </a>
+                    </p>
+
+                    <p class="icon1">
+                        <i class="mod1 material-design-black402"></i>
+                        <a href="mailto:info@cwt-international.com"> info@cwt-international.com </a>
+                    </p>
+
+
+
+
+                </div>
+
+
 
             </div>
-
-
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  wow fadeIn address-content">
-
-              <p class="icon1">
-                <i class="material-design-web37"></i>
-                Christiani Wassertechnik GmbH (CWT)
-
-              <p class="icon1">
-                <i class="material-design-map103"></i>
-                <a>Selerweg 41, 12169, Berlin, Germany
-              </p></a>
-              </p>
-
-            </div>
-
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 wow fadeIn contact-content">
-
-
-              <p class="icon1">
-                <i class="mod1 material-design-phone370"></i>
-                <a href="callto:+493023607780"> +49 (0)30 – 23 60 77 8-0 </a>
-              </p>
-
-              <p class="icon1">
-                <i class="mod1 material-design-black402"></i>
-                <a href="mailto:info@cwt-international.com"> info@cwt-international.com </a>
-              </p>
-
-
-
-
-            </div>
-
-
-
-          </div>
 
         </div>
-      </section>
+    </section>
 
-      <section class="footer-section2">
+    <section class="footer-section2">
         <div class="container">
-          Copyright © <span id="copyright-year"></span> | <a href="index-5.html"> Christiani Wassertechnik GmbH</a>
-          <!-- {%FOOTER_LINK} -->
+            Copyright © <span id="copyright-year"></span> | <a href="#"> Christiani Wassertechnik GmbH</a>
+            <!-- {%FOOTER_LINK} -->
         </div>
         <div class="container imprint ">
-          <span>
-            <a href="#">Privacy</a>
-            |
-            <a href="#">Imprint</a>
-          </span>
+            <span>
+                <a href="privacy">Privacy</a>
+                |
+                <a href="imprint">Imprint</a>
+            </span>
         </div>
-      </section>
-    </footer>
+    </section>
+</footer>
   </div>
 
   <script src="js/script.js"></script>
